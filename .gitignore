@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and generated artifacts
+datasets/raw/
+datasets/processed*/
+src/log/
+src/save_model/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
